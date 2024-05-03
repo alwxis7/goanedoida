@@ -1,20 +1,27 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		<title>seas</title>
+		<title>index</title>
 	</head>
 	<body>
-		<div>
+		<div style="background:#00fcff">
 			<h1>Sis is Heading uno</h1>
 		</div>
-		<div>
-			<h2>Sis is Heading zwei</h2>
-			<p>Gefällt mir nicht.</p>
-			<a href="./page2.html">
-			Hier klicken für schöneres Leben</a> 
+		<div style="background:#101010; width:100%; float:left;">
+			<div style="background:#00ffb3; width:12%; float:left;">
+				<h2>Sis is Heading zwei</h2>
+				<p id="myparagraph">Gefällt mir nicht.</p>
+			</div>
+			<div style="background:#0000ff; width:88%; float:left;">
+				<a href="./page2.html">
+				Hier klicken für schöneres Leben</a> 
+			</div>
 		</div>
-		<div>
-			<p>Verantwortlich: Fekete Alexis (fekete.alexis@htleisenstadt.at)
+		<div style="background:#808080;">
+			<button onclick="document.getElementById('myparagraph').innerHTML='Gefällt mir besser'">
+			KLICK MICH
+			</button>
+			<p>Verantwortlich: Fekete Alexis (fekete.alexis@htleisenstadt.at) </p>
 		</div>
 	</body>
 </html>
